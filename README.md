@@ -13,10 +13,10 @@ The best Tutorial for Docker is from Docker itself. First download the [desktop 
 ## Get Started Tutorial
 Next is to follow the [getting started](https://docs.docker.com/get-started/) tutorial. Follow this addtional information when doing the tutorial:
 
-###Dockerfiles
+#####Dockerfiles
 In Part 2, the tutorial does not go very in depth with how to actually create a Dockerfile (very important). Follow this [link](https://docs.docker.com/build/building/packaging/) on creating a Dockerfile, the foundation of your image.
 
-###Chip Architecture and Errors
+#####Chip Architecture and Errors
 You will run into some errors in the tutorial, depending on how you build your images and containers. Apple Silicon arm64 images will not run on amd64. The first such error that shows up in this tutorial is when you upload to the 'Play with Docker' website, which runs a server on amd64_86. 
 
 The way to bypass is through emulation, which is packaged in within Docker software. The drawback to this method is that it drastically reduces the computational speed on the host machine (your Mac).
