@@ -10,7 +10,7 @@ Docker serves also as the foundation for moving onto [Platform One](https://p1.d
 
 The best Tutorial for Docker is from Docker itself. First download the [desktop version](https://www.docker.com/products/docker-desktop/). 
 
-### Get Started Tutorial
+## Get Started Tutorial
 Next is to follow the [getting started](https://docs.docker.com/get-started/) tutorial. Follow this addtional information when doing the tutorial:
 
 **Dockerfiles** In Part 2, the tutorial does not go very in depth with how to actually create a Dockerfile (very important). Follow this [link](https://docs.docker.com/build/building/packaging/) on creating a Dockerfile, the foundation of your image.
